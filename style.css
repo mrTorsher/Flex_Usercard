@@ -22,6 +22,7 @@ body {
     align-items: center;
     margin: 2em;
     line-height: 1.6em;
+    filter: sepia(100%);
 }
 
 
@@ -42,6 +43,11 @@ body {
     width: 150px;
     height: 150px;
     border: 10px solid #d4a942;
+
+}
+
+.userCard:hover{
+    filter: none;
 }
 
 .flagImg {
