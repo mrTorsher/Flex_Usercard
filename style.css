@@ -36,7 +36,7 @@ body {
     object-fit: cover;
     border-radius: 50%;
     box-sizing: unset;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .userImg {
@@ -48,6 +48,9 @@ body {
 
 .userCard:hover{
     filter: none;
+}
+.userCard:hover .userImg, .userCard:hover .flagImg, .userCard:hover .contactIcon{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .flagImg {
@@ -107,5 +110,4 @@ h1, h2 {
 .contactIcon {
     color: chocolate;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
